@@ -26,3 +26,6 @@ Create 2 more VMs(Web-1 and Web-2) using same resource group and region.
 Create Inbound Security rule(SSH_from_Jump_Box) allowing SSH connections from your IP address.
 
 ![ssh from jumpbox](https://user-images.githubusercontent.com/90808951/134112750-c1037527-8fa5-406f-acbf-8cf32a824e17.PNG)
+
+Install docker.io on your Jump box(run sudo apt update then sudo apt install docker.io).
+Pull container (run sudo docker pull cyberxsecurity/ansible)
